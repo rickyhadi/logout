@@ -17,4 +17,4 @@ function logout(appConfig, renderer, helper){
 	
 	return router;
 }
-module.exports = router;
+module.exports = logout;
