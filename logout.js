@@ -1,4 +1,7 @@
-function logout(appConfig, renderer, helper){
+function logout(){
+	var appConfig = require('appconfig');
+	var renderer = require('renderer')();
+	var helper = require('helper')();
 	var express = require('express');
 	var router = express.Router();
 
